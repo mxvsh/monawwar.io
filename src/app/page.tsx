@@ -26,8 +26,8 @@ const Buttons = [
 
 export default function Home() {
 	return (
-		<main className='flex min-h-screen flex-col items-center justify-center gap-8 bg-gradient-to-r from-slate-900 to-slate-950'>
-			<div>
+		<main className='flex min-h-screen flex-col items-center justify-center gap-8 bg-gradient-to-r from-slate-900 to-slate-950 text-center'>
+			<div className='flex justify-center flex-col items-center sm:items-start'>
 				<p className='text-blue-300 mb-2 flex items-center gap-1'>
 					<RiToolsLine />
 					software engineer
