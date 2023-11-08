@@ -39,11 +39,12 @@ export default function Home() {
 
 			<div className='flex text gap-4 text-slate-400'>
 				{Buttons.map((button, idx) => (
-					<button.icon
-						key={idx}
-						size={32}
-						className='hover:text-green-300 hover:cursor-pointer'
-					/>
+					<a key={idx} href={button.link} target='_blank' rel='noreferrer'>
+						<button.icon
+							size={32}
+							className='hover:text-green-300 hover:cursor-pointer'
+						/>
+					</a>
 				))}
 			</div>
 		</main>
