@@ -1,4 +1,5 @@
 import {
+	RiBook3Line,
 	RiEarthLine,
 	RiEdit2Line,
 	RiGithubLine,
@@ -19,8 +20,8 @@ const Buttons = [
 	},
 
 	{
-		icon: RiEarthLine,
-		link: 'https://github.com/xencodes',
+		icon: RiBook3Line,
+		link: 'https://blog.monawwar.io',
 	},
 ];
 
