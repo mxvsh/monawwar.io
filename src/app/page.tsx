@@ -16,7 +16,7 @@ const Buttons = [
 
 	{
 		icon: RiTwitterLine,
-		link: 'https://github.com/xencodes',
+		link: 'https://twitter.com/xencodes',
 	},
 
 	{
