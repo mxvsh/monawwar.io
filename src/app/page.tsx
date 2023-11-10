@@ -1,8 +1,7 @@
-import AboutMe from '@/components/about-me'
-import TechStack from '@/components/tech-stack'
 import { Button } from '@nextui-org/react'
-import React from 'react'
 import { RiGithubLine, RiTwitterLine } from 'react-icons/ri'
+
+import AboutMe from '@/components/about-me'
 
 function HomePage() {
   return (

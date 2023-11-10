@@ -1,13 +1,11 @@
-import React from 'react'
-
 function AboutMe() {
   return (
     <div className="max-w-2xl">
       <p className="text-slate-400 font-bold">About me</p>
 
       <p className="text-slate-600 mt-2">
-        Hey there! I'm Monawwar Abdullah, a software engineer based in India. I
-        started my journey as a developer in{' '}
+        Hey there! I&apos;m Monawwar Abdullah, a software engineer based in
+        India. I started my journey as a developer in{' '}
         <b className="text-slate-500">2017</b>. I like to build online tools,
         dashboards, and write servers. I like to explore new technologies and
         learn new things.

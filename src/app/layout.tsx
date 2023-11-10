@@ -1,8 +1,10 @@
 import './globals.css'
 
-import { NextUIProvider } from '@/providers/next-ui'
 import { Image } from '@nextui-org/react'
 import { Poppins } from 'next/font/google'
+import React from 'react'
+
+import { NextUIProvider } from '@/providers/next-ui'
 
 const poppins = Poppins({
   weight: ['400', '600'],
