@@ -25,15 +25,17 @@ export default function RootLayout({
         <NextUIProvider>
           <div
             aria-hidden="true"
-            className="fixed opacity-50 -top-[80%] -right-[60%] 2xl:-top-[60%] 2xl:-left-[45%] z-0 rotate-12"
+            className="fixed z-0 opacity-50 -top-[80%] -right-[60%] 2xl:-top-[60%] 2xl:-left-[45%] rotate-12"
+            style={{ userSelect: 'none', WebkitUserSelect: 'none' }}
           >
             <Image
               src="/gradient.png"
               alt="right background"
-              className="relative z-10 shadow-none rounded-large"
+              className="relative shadow-none rounded-large user-select-none"
+              draggable={false}
             />
           </div>
-          {children}
+          <div className="relative z-10">{children}</div>
         </NextUIProvider>
       </body>
     </html>
