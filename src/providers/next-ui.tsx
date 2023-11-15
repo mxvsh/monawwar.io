@@ -11,7 +11,7 @@ type Props = {
 const NextUIProvider = ({ children }: Props) => {
   return (
     <Provider>
-      <NextThemesProvider attribute="class" defaultTheme="light">
+      <NextThemesProvider attribute="class" defaultTheme="dark">
         {children}
       </NextThemesProvider>
     </Provider>
